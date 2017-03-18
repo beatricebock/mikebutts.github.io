@@ -28,8 +28,8 @@ Usage:
     {% endfor %}
   {% else %}
     {% for category in categories_list %} 
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
-    		{{ category[0] | join: "/" }} <span>{{ category[1].size }}</span>
+    	<li class="li-inline"><a class="btn btn-primary {% cycle  'red accent-4',  'pink accent-4', 'indigo accent-4','cyan accent-4','light-blue accent-4','purple accent-4' %}" href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+    		{{ category[0] | join: "/" }} <span class="badge">{{ category[1].size }}</span>
     	</a></li>
     {% endfor %}
   {% endif %}

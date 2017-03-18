@@ -1,0 +1,45 @@
+
+        
+        main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+        
+        .widget-wrapper {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+        }
+        
+          
+    
+        
+        footer.page-footer {
+            background-color: #53463d;
+            margin-top: 2rem;
+         
+        }
+.li-inline{
+    display: inline;
+}
+.chip {
+    display: inline-block;
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #eceff1;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+compiled.min.css?ver=4.7.3:1
+.chip, .chip .close, .chips .input {
+    line-height: 32px;
+}
+compiled.min.css?ver=4.7.3:1
+.chip, .chips .input {
+    height: 32px;
+    font-weight: 500;
+}
+
+
