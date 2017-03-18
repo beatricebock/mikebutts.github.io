@@ -1,46 +1,68 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Codelegy Blog
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+{% for post in site.posts %}
+		 {{post.title}}
+		 
 
 
+<div class="row">
+    <div class="col-md-8 blog-column">
+        <div class="view overlay hm-blue-slight z-depth-2">
+            <a><img src="https://mdbootstrap.com/images/slides/slide%20(13).jpg" class="img-responsive">
+                <div class="mask waves-effect waves-light "></div>
+            </a>
+        </div>
+
+        <div class="card-panel bl-panel text-center hoverable">
+            <a href=""><h3 class="black-text">{{post.title}} <i class="material-icons">chevron_right</i></h3></a>
+            <h5>Written by <a href="#">{{post.author}}</a> | {{ post.date | date: "%m/%d/%Y" }}</h5>
+            <!--Social Counter-->
+            <div class="hidden-xs">
+                <a class="btn-sm-full fb-bg rectangle waves-effect waves-light"><i class="fa fa-facebook"> </i> <span>Facebook</span> </a><span class="badge social-counter"></span>
+                <a class="btn-sm-full tw-bg rectangle waves-effect waves-light"><i class="fa fa-twitter"> </i> <span>Twitter</span></a><span class="badge social-counter"></span>
+                <a class="btn-sm-full gplus-bg rectangle waves-effect waves-light"><i class="fa fa-google-plus"> </i> <span>Google +</span></a><span class="badge social-counter"></span>
+                <a class="btn-sm-full comm-bg rectangle waves-effect waves-light"><i class="fa fa-comments"> </i> <span>Comments</span></a><span class="badge social-counter"></span>
+            </div>
+            <!--/.Social Counter-->
+            <!--Social Counters for mobile-->
+            <div class="visible-xs">
+                <span class="counter-wrapper">
+                <a class="btn-sm fb-bg rectangle waves-effect waves-light">
+                <i class="fa fa-facebook"> </i>
+                </a>
+                <span class="badge social-counter">5</span>
+                </span>
+
+                <span class="counter-wrapper">
+                <a class="btn-sm tw-bg rectangle waves-effect waves-light">
+                <i class="fa fa-twitter"> </i>
+                </a>
+                <span class="badge social-counter">5</span>
+                </span>
+
+                <span class="counter-wrapper">
+                <a class="btn-sm gplus-bg rectangle waves-effect waves-light">
+                <i class="fa fa-google-plus"> </i>
+                </a>
+                <span class="badge social-counter">5</span>
+                </span>
+                <span class="counter-wrapper">
+                <a class="btn-sm comm-bg rectangle waves-effect waves-light">
+                <i class="fa fa-comments"> </i>
+                </a>
+                <span class="badge social-counter">5</span>
+                </span>
+            </div>
+            <!--/.Social Counters for mobile-->
+            <hr>
+            <p class="text-left">{{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, perspiciatis, fugit! Deleniti, voluptatem, officia! Error, voluptate eaque ex, aperiam quo tempora, veritatis aspernatur voluptatum nesciunt a distinctio provident numquam quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, incidunt odio saepe! Voluptate fugiat nihil debitis, excepturi soluta cumque aut harum quibusdam ratione quod, quia, vel, consectetur autem! Rem, corrupti!}}</p>
+        </div>
+    </div>
+</div>
+<!--/.Post row-->
+{% endfor %}
