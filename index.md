@@ -92,31 +92,54 @@ title: Codelegy Blog
                             {% endfor %} 
                         </div>
                     </div>
-
-
-
-                    <div class="widget-wrapper">
-                        <h4>Subscription form:</h4>
-                        <br>
-                        <div class="card">
-                            <div class="card-block">
-                                <p><strong>Subscribe to our newsletter</strong></p>
-                                <p>Once a week we will send you a summary of the most useful news</p>
-                                <div class="md-form">
-                                    <i class="fa fa-user prefix"></i>
-                                    <input type="text" id="form1" class="form-control">
-                                    <label for="form1">Your name</label>
-                                </div>
-                                <div class="md-form">
-                                    <i class="fa fa-envelope prefix"></i>
-                                    <input type="text" id="form2" class="form-control">
-                                    <label for="form2">Your email</label>
-                                </div>
-                                <button class="btn btn-info waves-effect waves-light">Submit</button>
-
-                            </div>
-                        </div>
+                    <div>
+                    	{% tweet https://twitter.com/DEVOPS_BORAT/statuses/159849628819402752 %}
                     </div>
+<!--
+
+  <div class="widget-wrapper">
+    <h4>Subscription form:</h4>
+    <br>
+    <div class="card">
+       <div class="card-block">
+           <p><strong>Subscribe to our newsletter</strong></p>
+           <p>Once a week we will send you a summary of the most useful news</p>
+           <div class="subscribe-form ml-block-success" style="display:none">
+               <div class="form-section">
+                  <h4>Newsletter</h4>
+                  <p>Thank you! You have successfully subscribed to our newsletter.</p>
+              </div>
+          </div>
+          <form class="ml-block-form" action="//app.mailerlite.com/webforms/submit/l2x1a1" data-id="344185" data-code="l2x1a1" method="POST" target="_blank">
+           <div class="md-form">
+               <i class="fa fa-user prefix"></i>
+               <input type="text" name="fields[name]" class="form-control" placeholder="Name" value="" autocomplete="name" x-autocompletetype="name" spellcheck="false" autocapitalize="off" autocorrect="off" id="form1">
+               <label for="form1">Your name</label>
+           </div>
+           <div class="md-form">
+               <i class="fa fa-envelope prefix"></i>
+               <input type="email" name="fields[email]" class="form-control" placeholder="Email*" value="" autocomplete="email" x-autocompletetype="email" spellcheck="false" autocapitalize="off" autocorrect="off" id="form2">
+               <label for="form2">Your email</label>
+           </div>
+           <button class="btn btn-info waves-effect waves-light">Submit</button>
+           <button disabled="disabled" style="display: none;" type="button" class="loading">
+               <img src="//static.mailerlite.com/images/rolling.gif" width="20" height="20" style="width: 20px; height: 20px;">
+           </button>
+          </form>
+       </div>
+   </div>
+</div>
+<script>
+  function ml_webform_success_4516083() {
+     var $ = ml_jQuery || jQuery;
+
+     $('.ml-subscribe-form-4516083 .ml-block-success').show();
+     $('.ml-subscribe-form-4516083 .ml-block-form').hide();
+ };
+</script>
+<script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.min.js?v98f07ba3d85ef7eb5404a058e826ec34"></script>
+                 
+-->
 
                 </div>
                 <!--/.Sidebar-->
@@ -125,3 +148,7 @@ title: Codelegy Blog
         
 
     </main>
+	
+	
+	
+	
