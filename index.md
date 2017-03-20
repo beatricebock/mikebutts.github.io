@@ -93,7 +93,7 @@ title: Codelegy Blog
                         </div>
                     </div>
                     <div>
-                    	{% tweet https://twitter.com/DEVOPS_BORAT/statuses/159849628819402752 %}
+                    	<a class="twitter-timeline" href="https://twitter.com/codelegy">Tweets by codelegy</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
 <!--
 
