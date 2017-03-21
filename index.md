@@ -42,7 +42,7 @@ title: Codelegy Blog
                         <p>{{post.excerpt}}</p>
 
                         <!--"Read more" button-->
-                        <button class="btn btn-info waves-effect waves-light">Read more</button>
+                        <a class="btn btn-info waves-effect waves-light" href="{{ site.baseurl }}{{ post.url }}">Read more</a>s
                     </div>
                     <!--/.Post-->
                     {% endfor %}
