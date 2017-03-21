@@ -6,7 +6,7 @@ categories:
 tags:
 - CMS
 - jekyll
-Author: Mike
+author: Mike
 main_img: http://cdn.static-economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png
 ---
 
