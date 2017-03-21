@@ -1,6 +1,6 @@
 ---
 title: Codepen 101
-date: 2017-03-21 16:43:00 Z
+date: 2017-03-21 11:43:00 -05:00
 categories:
 - tutorials
 tags:
@@ -25,4 +25,24 @@ Codepen can be hard to wrestle with. Here's a little tutorial on how to use Code
 (optional)4. Add your new pen to a [collection](#step-4)
 
 Now, before we begin, let's make some things clear:
+Windows
+Settings 
+Collections
 
+# Step 1
+## Create an account 
+## Create a pen
+
+# Step 2
+## Where the code goes
+## Settings
+### Imports
+### Pre processors 
+### Behaviour
+
+# Step 3
+## Save
+## Rename
+
+# Step 4
+## Collections
