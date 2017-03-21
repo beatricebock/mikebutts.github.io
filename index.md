@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Codelegy Blog
+layout: default
 ---
+
 {% include JB/setup %}
 
 
