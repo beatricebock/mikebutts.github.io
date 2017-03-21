@@ -40,7 +40,7 @@ layout: default
                         <br>
 
                         <!--Post excerpt-->
-                        <p>{{post.excerpt}}</p>
+                        <p>{{ post.excerpt | strip_html | truncatewords:75 }}</p>
 
                         <!--"Read more" button-->
                         <a class="btn btn-info waves-effect waves-light" href="{{ site.baseurl }}{{ post.url }}">Read more</a>
