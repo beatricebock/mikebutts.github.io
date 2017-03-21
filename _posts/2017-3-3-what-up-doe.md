@@ -1,9 +1,12 @@
 ---
+title: "What up Doe"
 layout: post
 category : lessons
 tagline: "its late as sheet"
 tags : [advanced, tutorial]
 date: 2016-03-23T10:20:00Z
+main_img: http://www.codelegy.com/assets/blog_images/placeholder.png
+author: Mike
 ---
 {% include JB/setup %}
 

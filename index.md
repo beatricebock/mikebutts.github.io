@@ -31,7 +31,7 @@ title: Codelegy Blog
 
                         <!--Featured image -->
                         <div class="view overlay hm-white-light z-depth-1-half">
-                            <img src="http://mdbootstrap.com/img/Photos/Slides/img%20(116).jpg" class="img-fluid " alt="">
+                            <img src="{{post.main_img}}" class="img-fluid img-responsive main-image" alt="{{post.img_main_alt}}" ma>
                             <div class="mask">
                             </div>
                         </div>
@@ -42,7 +42,7 @@ title: Codelegy Blog
                         <p>{{post.excerpt}}</p>
 
                         <!--"Read more" button-->
-                        <a class="btn btn-info waves-effect waves-light" href="{{ site.baseurl }}{{ post.url }}">Read more</a>s
+                        <a class="btn btn-info waves-effect waves-light" href="{{ site.baseurl }}{{ post.url }}">Read more</a>
                     </div>
                     <!--/.Post-->
                     {% endfor %}
