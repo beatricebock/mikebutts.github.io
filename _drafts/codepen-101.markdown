@@ -24,10 +24,11 @@ Codepen can be hard to wrestle with. Here's a little tutorial on how to use Code
 3. [Save and rename](#step-3) your pen
 (optional)4. Add your new pen to a [collection](#step-4)
 
+# Terminology
 Now, before we begin, let's make some things clear:
 
 ## Pens
-What's a pen? It's basically Codepen's fancy word for a webpage, or project. 
+What's a pen? It's basically Codepen's fancy word for a webpage. Codepen calls "projects" full fledged websites that can contain data files, multiple assets, and multiple HTML files, etc.
 
 ## Editors
 [codewindows.PNG](/uploads/codewindows.PNG)
@@ -55,10 +56,15 @@ The little gear buttons surrounded by the brown boxes are where your settings li
     * Use a preprocessor like Babel or Coffeescript
     * Add external JS files like JQuery, Angular, and Vue. Use the Quick Add dropdown to quickly add some of the more popular frameworks.
 
-* Behavior - deals with the behavior of this current pen
+* Behavior - deals with the behavior of this current pen.
+    * Code indentation - basically how many spaces would appear if you pressed "tab"
+    * Autosave - Codepen saves your code every once in a while. Toggle to turn it on or off.
+    * Auto-updating preview - Codepen automatically reads your new code and then displays them in the preview every time you stop typing.  
+    Toggle to turn this on or off. You want to turn this off if you're working on the pen for a long time, because Codepen can get flaky if you don't - it's a browser cache thing.
 
 # Step 1
 ## Create an account 
+
 ## Create a pen
 
 # Step 2
