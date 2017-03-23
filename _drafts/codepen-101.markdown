@@ -25,9 +25,26 @@ Codepen can be hard to wrestle with. Here's a little tutorial on how to use Code
 (optional)4. Add your new pen to a [collection](#step-4)
 
 Now, before we begin, let's make some things clear:
-Editors
 [codewindows.PNG](/uploads/codewindows.PNG)
+Editors
+Editors are surrounded by the blue squares. There are 3 different editors: one for HTML, one for CSS, and the other one is - you guessed it - for JavaScript.
+
+You know how we'd put HTML, CSS, and JS code in different files? This is the same concept. Instead of files, we put them in their own editors.
+
 Settings 
+The little gear buttons surrounded by the brown boxes are where your settings live. Here's what you can do with the settings: 
+* HTML: 
+[html.PNG](/uploads/html.PNG)
+    * Use a preprocessor - if you want to use HAML, Pug, etc, this is where you tell Codepen! Then, there's literally nothing else to do - just code in the preprocessor language you chose.  
+    * Add a class to HTML - sometimes you need to add styling to your HTML tag. Here's where you put it.  
+    * Put stuff in the <head> - Codepen is set up so that you won't need to add your <head>, <meta>, <link>, and <script> tags in the HTML editor. Just add the <meta> stuff in the settings, and the <link> and <script> links in the CSS or JavaScript settings.  
+* CSS
+[css.PNG](/uploads/css.PNG)
+    * Preprocessors - so SASS, LESS, that kind of good stuff.
+    * CSS Base and Vendor Prefixing selections
+    * Add external CSS - here's where you paste the CDN links of the CSS you want to use. For example, I imported the Bootstrap and MDBootstrap CDNs here. So there's no need for you to use a <link> tag in the HTML editor!  
+    Click the Quick Add to view a dropdown of some of the most popular CSS links like Bootstrap and Foundation, so you  don't have to manually copy-and-paste them.
+
 Collections
 
 # Step 1
