@@ -26,7 +26,7 @@ Codepen can be hard to wrestle with. Here's a little tutorial on how to use Code
 
 Now, before we begin, let's make some things clear:
 Editors
-
+[codewindows.PNG](/uploads/codewindows.PNG)
 Settings 
 Collections
 
