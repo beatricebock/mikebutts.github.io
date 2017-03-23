@@ -47,7 +47,7 @@ The little gear buttons surrounded by the brown boxes are where your settings li
     * Put stuff in the <head> - Codepen is set up so that you won't need to add your <head>, <meta>, <link>, and <script> tags in the HTML editor. Just add the <meta> stuff in the settings, and the <link> and <script> links in the CSS or JavaScript settings.  
 * CSS
 [css.PNG](/uploads/css.PNG)
-    * Preprocessors - so SASS, LESS, that kind of good stuff.
+    * Preprocessors - so SASS, LESS, that kind of good stuff. Our e-mails in [30 Days, 30 Sites](http://www.subscribepage.com/30days30sites) actually links to great places where you can learn how to work with preprocessors
     * CSS Base and Vendor Prefixing selections
     * Add external CSS - here's where you paste the CDN links of the CSS you want to use. For example, I imported the Bootstrap and MDBootstrap CDNs here. So there's no need for you to use a <link> tag in the HTML editor!  
     Click the Quick Add to view a dropdown of some of the most popular CSS links like Bootstrap and Foundation, so you  don't have to manually copy-and-paste them.
@@ -93,8 +93,20 @@ If you click save without renaming your pen, Codepen generates a random set of n
 
 You can change this by clicking the little pen next to the set of random characters. Remember to hit "Save" one more time - just in case.
 
-Name your pen so that it's easy for people to find your pen. If you're making a webpage for the [30 Days, 30 Sites](http://www.subscribepage.com/30days30sites) challenge, for example, name it something like this:
-
+Name your pen so that it's easy for people to find your pen. If you're making a webpage for the [30 Days, 30 Sites](http://www.subscribepage.com/30days30sites) challenge, for example, name it something like: 30Days30Sites Day 1: xxx
 
 # Step 4
 ## Collections
+Since this tutorial was geared towards the [30 Days, 30 Sites](http://www.subscribepage.com/30days30sites) peeps, Collections will be especially useful for you. 
+
+Collections are basically a tool to organize your pens. You can have many collections for all kinds of different purposes. So in our context, we can make a collection to store all 30 of our sites, so it's easier for people to find.
+
+When you're done with your pen, you can add it to a collection. 
+[collection1.PNG](/uploads/collection1.PNG)
+Click the "Add to Collection" dropdown at the bottom left corner of your screen. 
+[collections2.PNG](/uploads/collections2.PNG)
+If you haven't made a collection yet, you can make one by clicking the "Create new collection & add" option. A pop up will appear. In this example, you can fill it in like this. After you're done, click the green "Create" button.
+[collections3.PNG](/uploads/collections3.PNG)
+So the next time you create a pen for the challenge, you can add it directly to the collection, which will show up in the dropdown menu (no need to create it again!)
+
+---
