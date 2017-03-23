@@ -7,6 +7,7 @@ tags:
 - tutorial
 - beginner
 author: Tris
+layout: post
 ---
 
 [Codepen.io](https://codepen.io) is a revolutionary web IDE. What that essentially means is that you can code a webpage, complete with CSS and Javascript, all in your browser, without having to install anything. How cool is that?
@@ -61,22 +62,39 @@ The little gear buttons surrounded by the brown boxes are where your settings li
     * Autosave - Codepen saves your code every once in a while. Toggle to turn it on or off.
     * Auto-updating preview - Codepen automatically reads your new code and then displays them in the preview every time you stop typing.  
     Toggle to turn this on or off. You want to turn this off if you're working on the pen for a long time, because Codepen can get flaky if you don't - it's a browser cache thing.
-
+---
 # Step 1
-## Create an account 
-
 ## Create a pen
+[home.PNG](/uploads/home.PNG)
+Click the nice little "Create" button on the top right corner of the page, then click "New Pen". You'll be met with a blank slate.
 
 # Step 2
 ## Where the code goes
-## Settings
+Here's an example of how you can begin working in the code editors.
+[codeexample-ddcefa.PNG](/uploads/codeexample-ddcefa.PNG)
+As you can see, there's no need for <head> or <body> tags in the HTML section. 
+
 ### Imports
+I had previously imported Bootstrap and Jquery. There's no need for us to actually copy and paste Bootstrap code. What you see are the customization I'm making to the original CSS code. 
+
+We'll be making a tutorial specifically geared at using Bootstrap with Codepen a little later on, so make sure you subscribe.
+
 ### Pre processors 
-### Behaviour
+The CSS code editor has "(scss)" next to it because I opted to use the SCSS preprocessor in the settings page mentioned earlier.
 
 # Step 3
 ## Save
+[save.PNG](/uploads/save.PNG)
+Even though you have Autosave on, it's still good practice to manually click the "Save" button before you exit the window. You can find the button in the navigation bar, towards the right of the screen.
+
 ## Rename
+[rename.PNG](/uploads/rename.PNG)
+If you click save without renaming your pen, Codepen generates a random set of numbers and letters as the default name, shown above. 
+
+You can change this by clicking the little pen next to the set of random characters. Remember to hit "Save" one more time - just in case.
+
+Name your pen so that it's easy for people to find your pen. If you're making a webpage for the [30 Days, 30 Sites](http://www.subscribepage.com/30days30sites) challenge, for example, name it something like this:
+
 
 # Step 4
 ## Collections
