@@ -25,13 +25,18 @@ Codepen can be hard to wrestle with. Here's a little tutorial on how to use Code
 (optional)4. Add your new pen to a [collection](#step-4)
 
 Now, before we begin, let's make some things clear:
+
+## Pens
+What's a pen? It's basically Codepen's fancy word for a webpage, or project. 
+
+## Editors
 [codewindows.PNG](/uploads/codewindows.PNG)
-Editors
+
 Editors are surrounded by the blue squares. There are 3 different editors: one for HTML, one for CSS, and the other one is - you guessed it - for JavaScript.
 
 You know how we'd put HTML, CSS, and JS code in different files? This is the same concept. Instead of files, we put them in their own editors.
 
-Settings 
+## Settings 
 The little gear buttons surrounded by the brown boxes are where your settings live. Here's what you can do with the settings: 
 * HTML: 
 [html.PNG](/uploads/html.PNG)
@@ -45,7 +50,12 @@ The little gear buttons surrounded by the brown boxes are where your settings li
     * Add external CSS - here's where you paste the CDN links of the CSS you want to use. For example, I imported the Bootstrap and MDBootstrap CDNs here. So there's no need for you to use a <link> tag in the HTML editor!  
     Click the Quick Add to view a dropdown of some of the most popular CSS links like Bootstrap and Foundation, so you  don't have to manually copy-and-paste them.
 
-Collections
+* JavasScript:
+[js.PNG](/uploads/js.PNG)
+    * Use a preprocessor like Babel or Coffeescript
+    * Add external JS files like JQuery, Angular, and Vue. Use the Quick Add dropdown to quickly add some of the more popular frameworks.
+
+* Behavior - deals with the behavior of this current pen
 
 # Step 1
 ## Create an account 
