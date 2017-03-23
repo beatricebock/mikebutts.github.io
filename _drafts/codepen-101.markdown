@@ -40,24 +40,26 @@ You know how we'd put HTML, CSS, and JS code in different files? This is the sam
 
 ## Settings 
 The little gear buttons surrounded by the brown boxes are where your settings live. Here's what you can do with the settings: 
-* HTML: 
+### HTML
 [html.PNG](/uploads/html.PNG)
     * Use a preprocessor - if you want to use HAML, Pug, etc, this is where you tell Codepen! Then, there's literally nothing else to do - just code in the preprocessor language you chose.  
     * Add a class to HTML - sometimes you need to add styling to your HTML tag. Here's where you put it.  
     * Put stuff in the <head> - Codepen is set up so that you won't need to add your <head>, <meta>, <link>, and <script> tags in the HTML editor. Just add the <meta> stuff in the settings, and the <link> and <script> links in the CSS or JavaScript settings.  
-* CSS
+
+### CSS
 [css.PNG](/uploads/css.PNG)
     * Preprocessors - so SASS, LESS, that kind of good stuff. Our e-mails in [30 Days, 30 Sites](http://www.subscribepage.com/30days30sites) actually links to great places where you can learn how to work with preprocessors
     * CSS Base and Vendor Prefixing selections
     * Add external CSS - here's where you paste the CDN links of the CSS you want to use. For example, I imported the Bootstrap and MDBootstrap CDNs here. So there's no need for you to use a <link> tag in the HTML editor!  
     Click the Quick Add to view a dropdown of some of the most popular CSS links like Bootstrap and Foundation, so you  don't have to manually copy-and-paste them.
 
-* JavasScript:
+### JavaScript
 [js.PNG](/uploads/js.PNG)
     * Use a preprocessor like Babel or Coffeescript
     * Add external JS files like JQuery, Angular, and Vue. Use the Quick Add dropdown to quickly add some of the more popular frameworks.
 
-* Behavior - deals with the behavior of this current pen.
+### Behaviour  
+ - deals with the behavior of this current pen.
     * Code indentation - basically how many spaces would appear if you pressed "tab"
     * Autosave - Codepen saves your code every once in a while. Toggle to turn it on or off.
     * Auto-updating preview - Codepen automatically reads your new code and then displays them in the preview every time you stop typing.  
@@ -101,12 +103,39 @@ Since this tutorial was geared towards the [30 Days, 30 Sites](http://www.subscr
 
 Collections are basically a tool to organize your pens. You can have many collections for all kinds of different purposes. So in our context, we can make a collection to store all 30 of our sites, so it's easier for people to find.
 
+### Add to a collection
 When you're done with your pen, you can add it to a collection. 
 [collection1.PNG](/uploads/collection1.PNG)
 Click the "Add to Collection" dropdown at the bottom left corner of your screen. 
 [collections2.PNG](/uploads/collections2.PNG)
+
+### Create a collection
 If you haven't made a collection yet, you can make one by clicking the "Create new collection & add" option. A pop up will appear. In this example, you can fill it in like this. After you're done, click the green "Create" button.
 [collections3.PNG](/uploads/collections3.PNG)
 So the next time you create a pen for the challenge, you can add it directly to the collection, which will show up in the dropdown menu (no need to create it again!)
 
+Quick tip: You can also add the same pen to different collections!
+
 ---
+
+# That's a wrap for the basics, folks!
+So far, you've learned:
+* How to create a new pen
+* How to import external assets (CSS, JS)
+* How to use preprocessors
+* How to change the behaviour of your pen (stop it from auto refreshing, turn on autosave, etc)
+* How to save your pen
+* How to rename your pen
+* How to create a collection
+* How to add your pen to a collection
+
+That's a whole dang lot! Now, usually, if you're facing problems like dropdowns not working, site being not responsive, it's usually because you didn't import your CSS and JavaScript correctly. Remember to put the CDN links in the [CSS](#css) and [JavaScript](#javascript) settings respectively, **not** in the HTML code editor.
+
+Let us know if you need any more help! 
+
+Remember to stay tuned for the next edition of Codepen 101, where we will walk you through the process of coding a webpage using a framework like Bootstrap.
+
+See ya!
+
+Love,
+Tris
