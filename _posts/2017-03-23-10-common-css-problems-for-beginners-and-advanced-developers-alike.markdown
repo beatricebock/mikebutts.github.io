@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 10 Common CSS problems for beginners and advanced developers alike
 date: 2017-03-23 16:11:00 -05:00
 categories:
@@ -8,6 +7,7 @@ tags:
 - tutorial
 - beginner
 - CSS
+layout: post
 main_img: https://pace.oregonstate.edu/sites/default/files/styles/course_banner_large/public/images/course/cover/pace-oregon-state-html-css-coding-web-design.jpg?itok=tNEZncCn
 ---
 
