@@ -1,6 +1,6 @@
 ---
 title: 10 Common CSS problems for beginners and advanced developers alike
-date: '2017-03-23T21:11:00.000+00:00'
+date: 2017-03-23 17:11:00 -04:00
 categories:
 - tutorials
 tags:
