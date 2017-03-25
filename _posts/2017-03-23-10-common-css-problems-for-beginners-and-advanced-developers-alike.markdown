@@ -7,7 +7,9 @@ tags:
 - tutorial
 - beginner
 - CSS
-main_img: https://pace.oregonstate.edu/sites/default/files/styles/course_banner_large/public/images/course/cover/pace-oregon-state-html-css-coding-web-design.jpg?itok=tNEZncCn
+main_img: http://www.codelegy.com/assets/blog_images/cssmain.jpg
+author: Mike
+main_img_alt: css code
 layout: post
 ---
 
