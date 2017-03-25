@@ -23,7 +23,7 @@ author:
   github: mikebutts
   twitter: mikelols
   feedburner: feedname
-production_url: http://mikebutts.github.io
+production_url: http://www.codelegy.com/blog
 gems:
 - jekyll-sitemap
 JB:
