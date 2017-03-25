@@ -44,18 +44,21 @@ The picture sums it up here,  Element > Class > ID.  The more specific your sele
 
 ### **4. White-space does not matter.**
 
-For the record, it does not matter if you have spaces or do not, however, I would not hire you if it was hard to read!
-\[!\[whitespace\](/uploads/whitespace.jpg)\](/uploads/whitespace.jpg)
+For the record, it does not matter if you have spaces or do not, however, I would not hire you if it was hard to read
 
-### **5. Pseduo Class, what are they?**
+![whitespace.jpg](/uploads/whitespace.jpg)
 
-Pseduo classes allow you to identify HTML elements based on characteristics
-!\[pseduo class\](/uploads/psuedo.png)
+### **5. Pseudo Class, what are they?**
+
+Pseudo classes allow you to identify HTML elements based on characteristics
+
+![psuedo.png](/uploads/psuedo.png)
 
 ### **6. Child class vs multiple classes**
 
 When you have .bob .sue (with a space), this means sue is a child of bob. When there is no space, .bob.sue the class declaration in the div have to have both bob and sue in it.
-!\[child class vs multiple classes\](/uploads/childvsmultiple.png)
+
+![childvsmultiple-c5c2af.png](/uploads/childvsmultiple-c5c2af.png)
 
 ### **7. Why does my CSS have weird margins?**
 
@@ -121,6 +124,11 @@ Don't use css on elements unless you have a good reason (p{color: red}), use cla
 
 ### **10. Relative vs Absolute**
 
-http://stackoverflow.com/a/20718728
-And
-https://blog.kevinchisholm.com/css/absolute-positioning-basics/
+In short, relative  is positioned *relative* to its normal position. Setting the properties like left or right, would move left or right away from its normal position.  *Absolute *is positioned relative to  the nearest parent, so if it is a div, it would be positioned absolute inside that div, however if there is no parent, it will use  body.
+
+![relativevsabsolute.png](/uploads/relativevsabsolute.png)
+
+Read more [http://stackoverflow.com/a/20718728](http://stackoverflow.com/a/20718728) and [https://blog.kevinchisholm.com/css/absolute-positioning-basics/](https://blog.kevinchisholm.com/css/absolute-positioning-basics/)\
+Fixed is similar to absolute but always uses the body, and stays in the same place even if the page is scrolled.\
+\
+These are common CSS questions and problems I am asked, if you have more leave them in the comments :D
