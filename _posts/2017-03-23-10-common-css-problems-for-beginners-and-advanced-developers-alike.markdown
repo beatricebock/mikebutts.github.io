@@ -21,7 +21,9 @@ CSS can be frustrating when working on a project,  you type in XYZ and the resul
 
 When more than one selector shares the same declaration, they may be grouped together via a comma-separated list. This allows you to reduce the size of the CSS (every bit and byte is important) and makes it more readable. The following snippet applies the same background to the first three heading elements.
 
+```
     h1, h2, h3 {background: red;}
+```
 
 ### **2. What is the difference between an ID selector and a CLASS?**
 
@@ -66,6 +68,8 @@ When you have .bob .sue (with a space), this means sue is a child of bob. When t
 
 CSS by default have margins and padding that might be affecting your code. To fix this you can make a reset.css file and paste the following:\*\*
 
+
+```
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -75,8 +79,8 @@ CSS by default have margins and padding that might be affecting your code. To fi
     dl, dt, dd, ol, ul, li,
     fieldset, form, label, legend,
     table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
     menu, nav, output, ruby, section, summary,
     time, mark, audio, video {
         margin: 0;
@@ -87,7 +91,7 @@ CSS by default have margins and padding that might be affecting your code. To fi
         vertical-align: baseline;
     }
     /\* HTML5 display-role reset for older browsers \*/
-    article, aside, details, figcaption, figure, 
+    article, aside, details, figcaption, figure,
     footer, header, hgroup, menu, nav, section {
         display: block;
     }
@@ -109,14 +113,18 @@ CSS by default have margins and padding that might be affecting your code. To fi
         border-collapse: collapse;
         border-spacing: 0;
     }
+```
+
 
 ### **8. Use DRY code (Don't Repeat Yourself)**
 
 Reusing code is a common problem with beginners, often I will see someone have multiple classes all using similar css for example
 
+```
 font-weight: bold;
 color: #0000FF;
 border-top: 1px solid blue;
+```
 
 Instead having the repeat code in multiple classes, you could make it, it's own class and have div class="oldclass newclass". Another DRY mistake is not using short hands. .one, .two, .three and .four in the image all accomplish the same thing.
 

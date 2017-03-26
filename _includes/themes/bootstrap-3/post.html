@@ -1,108 +1,105 @@
 <div class="row post-full">
   <div class="col-xs-12">
-   
+
     <!--Post row-->
-		<div class="row">
-			<div class="col-md-12 blog-column">
-				<div class="view overlay hm-blue-slight z-depth-2">
-					<a><img src="{{page.main_img}}" class="img-responsive">
-						<div class="mask waves-effect waves-light "></div>
-					</a>
-				</div>
+    <div class="row">
+      <div class="col-md-12 blog-column">
+        <div class="view overlay hm-blue-slight z-depth-2">
+          <a><img src="{{page.main_img}}" class="img-responsive">
+            <div class="mask waves-effect waves-light "></div>
+          </a>
+        </div>
 
-				<div class="card-panel bl-panel text-center hoverable">
-					<a href=""><h3 class="black-text">{{page.title }} </h3></a>
-					 {% if page.tagline %}<h5 class="grey-text">{{page.tagline}}</h5>{% endif %}
-					<h5>Written by <a href="#">{{page.author}}</a> | {{ page.date | date_to_string }}</h5>
+        <div class="card-panel bl-panel hoverable">
+          <a href="">
+            <h3 class="black-text">{{page.title }} </h3>
+          </a>
+          {% if page.tagline %}
+          <h5 class="grey-text">{{page.tagline}}</h5>{% endif %}
+          <h5>Written by <a href="#">{{page.author}}</a> | {{ page.date | date_to_string }}</h5>
 
-					<!--Social Counter-->
-					<div class="hidden-xs">
+          <!--Social Counter-->
+          <div class="hidden-xs">
 
-						<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="btn-sm-full fb-bg rectangle waves-effect waves-light">
-							<i class="fa fa-facebook"> </i> 
-							<span>Facebook</span> 
-						</a>
+            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="btn-sm-full fb-bg rectangle waves-effect waves-light">
+              <i class="fa fa-facebook"> </i>
+              <span>Facebook</span>
+            </a>
 
-						<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"
-						class="btn-sm-full tw-bg rectangle waves-effect waves-light">
-							<i class="fa fa-twitter"> </i> 
-							<span>Twitter</span>
-						</a>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="btn-sm-full tw-bg rectangle waves-effect waves-light">
+              <i class="fa fa-twitter"> </i>
+              <span>Twitter</span>
+            </a>
 
-						<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"
-						class="btn-sm-full gplus-bg rectangle waves-effect waves-light">
-							<i class="fa fa-google-plus"> </i> 
-							<span>Google +</span>
-						</a>
+            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+" class="btn-sm-full gplus-bg rectangle waves-effect waves-light">
+              <i class="fa fa-google-plus"> </i>
+              <span>Google +</span>
+            </a>
 
-						<a href="#disqus_thread" class="btn-sm-full comm-bg rectangle waves-effect waves-light"><i class="fa fa-comments"> </i> <span>Comments</span></a>
-					</div>
-					<!--/.Social Counter-->
-					<!--Social Counters for mobile-->
-					<div class="visible-xs">
-						<span class="counter-wrapper">
+            <a href="#disqus_thread" class="btn-sm-full comm-bg rectangle waves-effect waves-light"><i class="fa fa-comments"> </i> <span>Comments</span></a>
+          </div>
+          <!--/.Social Counter-->
+          <!--Social Counters for mobile-->
+          <div class="visible-xs">
+            <span class="counter-wrapper">
 						<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="btn-sm fb-bg rectangle waves-effect waves-light">
 						<i class="fa fa-facebook"> </i>
 						</a>
 						</span>
 
-						<span class="counter-wrapper">
+            <span class="counter-wrapper">
 						<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"class="btn-sm tw-bg rectangle waves-effect waves-light">
 						<i class="fa fa-twitter"> </i>
 						</a>
 						</span>
 
-						<span class="counter-wrapper">
+            <span class="counter-wrapper">
 						<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"class="btn-sm gplus-bg rectangle waves-effect waves-light">
 						<i class="fa fa-google-plus"> </i>
 						</a>
-						
+
 						</span>
-						<span class="counter-wrapper">
+            <span class="counter-wrapper">
 						<a href="#disqus_thread" class="btn-sm comm-bg rectangle waves-effect waves-light">
 						<i class="fa fa-comments"> </i>
 						</a>
 						</span>
-					</div>
-					<!--/.Social Counters for mobile-->
-					<hr>
-					<p class="text-left img-stuff">{{content}}</p>
-				</div>
-			</div>
-		</div>
-		<!--/.Post row-->
+          </div>
+          <!--/.Social Counters for mobile-->
+          <hr>
+          <div class="text-fluid img-responsive">
+            {{content}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Post row-->
 
-  {% unless page.categories == empty %}
+    {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
+      {% assign categories_list = page.categories %} {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
-
-  {% unless page.tags == empty %}
+    {% endunless %} {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
+      {% assign tags_list = page.tags %} {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-  
+    {% endunless %}
+
     <hr>
     <ul class="pagination">
-    {% if page.previous %}
+      {% if page.previous %}
       <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
-    {% else %}
+      {% else %}
       <li class="prev disabled"><a>&larr; Previous</a></li>
-    {% endif %}
+      {% endif %}
       <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-    {% if page.next %}
+      {% if page.next %}
       <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
-    {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
-    {% endif %}
+      {% else %}
+      <li class="next disabled"><a>Next &rarr;</a> {% endif %}
     </ul>
-    <hr>
-    {% include JB/comments %}
+    <hr> {% include JB/comments %}
   </div>
 </div>

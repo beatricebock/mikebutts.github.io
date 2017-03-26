@@ -46,7 +46,7 @@ JB:
     google:
       tracking_id: UA-94071239-1
     getclicky:
-      site_id: 
+      site_id:
     mixpanel:
       token: _MIXPANEL_TOKEN_
     piwik:

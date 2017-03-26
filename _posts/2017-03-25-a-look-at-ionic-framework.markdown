@@ -4,6 +4,7 @@ date: 2017-03-25 23:04:00 -04:00
 main_img: https://mikelols.files.wordpress.com/2015/09/ionic-samples.png
 author: Mike
 main_img_alt: Ionic Apps
+layout: post
 ---
 
 Ionic is a mobile framework based on AngularJS, with only a day to spend it was a good choice to dive into. Ionic can be built to use via the web, or you can easily compile android or iOS versions.
