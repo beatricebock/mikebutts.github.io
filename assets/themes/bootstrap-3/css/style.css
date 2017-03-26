@@ -42,5 +42,6 @@ compiled.min.css?ver=4.7.3:1
     font-weight: 500;
 }
 .card-panel img{
-	width: 50%;
+	width: 70%;
+	max-width: 100%;
 }
