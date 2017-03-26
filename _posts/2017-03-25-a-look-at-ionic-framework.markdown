@@ -16,4 +16,4 @@ Ionic is a mobile framework based on AngularJS, with only a day to spend it was 
 
 When developing I was using my Windows PC so I developed with an Android emulator using Android Studio. The emulator was awfully slow so I ended up switching to Genymotion which was much better.
 
-|In the CMD.exe running ionic start myApp gets you started with a sample app followed up by a ionic serve –lab will run the app in your browser with real time updates. The “–lab” allows you to see what your app would run like on both Android and iOS.| ![lab.png](/uploads/lab.png){class: pull-right}|
+|In the CMD.exe running ionic start myApp gets you started with a sample app followed up by a ionic serve –lab will run the app in your browser with real time updates. The “–lab” allows you to see what your app would run like on both Android and iOS.| ![lab.png](/uploads/lab.png){.pull-right}|
